@@ -33,6 +33,9 @@ public class Pergunta1 extends AppCompatActivity {
         bela = 0;
         luna = 0;
         nulo = 0;
+        branco = 0;
+        indeciso = 0;
+        naoSabe = 0;
 
 
         btnBela = (Button) findViewById(R.id.btnBela);
