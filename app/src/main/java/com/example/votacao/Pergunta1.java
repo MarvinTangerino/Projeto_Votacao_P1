@@ -15,9 +15,9 @@ import androidx.core.view.WindowInsetsCompat;
 public class Pergunta1 extends AppCompatActivity {
 
 
-    Button btnNina, btnSophie, btnPacoca, btnBela, btnLuna;
+    Button btnNina, btnSophie, btnPacoca, btnBela, btnLuna, btnNulo, btnBranco, btnIndeciso, btnNaoSabe;
 
-    int nina, sophie, pacoca, bela, luna;
+    int nina, sophie, pacoca, bela, luna, nulo, branco, indeciso, naoSabe;
 
 
 
@@ -32,6 +32,7 @@ public class Pergunta1 extends AppCompatActivity {
         pacoca = 0;
         bela = 0;
         luna = 0;
+        nulo = 0;
 
 
         btnBela = (Button) findViewById(R.id.btnBela);
@@ -39,6 +40,10 @@ public class Pergunta1 extends AppCompatActivity {
         btnNina = (Button) findViewById(R.id.btnNina);
         btnSophie = (Button) findViewById(R.id.btnSophie);
         btnPacoca = (Button) findViewById(R.id.btnPacoca);
+        btnNulo = (Button) findViewById(R.id.btnNulo);
+        btnBranco = (Button) findViewById(R.id.btnBranco);
+        btnIndeciso = (Button) findViewById(R.id.btnIndeciso);
+        btnNaoSabe = (Button) findViewById(R.id.btnNaoSabe);
 
         btnLuna.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -85,6 +90,46 @@ public class Pergunta1 extends AppCompatActivity {
             public void onClick(View view) {
                 Toast.makeText(Pergunta1.this, "Paçoca selecionada! ", Toast.LENGTH_LONG).show();
                 pacoca ++;
+                exibirTelaLogin();
+                finish();
+            }
+        });
+
+        btnNulo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(Pergunta1.this, "Nulo selecionado! ", Toast.LENGTH_LONG).show();
+                nulo ++;
+                exibirTelaLogin();
+                finish();
+            }
+        });
+
+        btnBranco.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(Pergunta1.this, "Branco selecionado! ", Toast.LENGTH_LONG).show();
+                branco ++;
+                exibirTelaLogin();
+                finish();
+            }
+        });
+
+        btnIndeciso.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(Pergunta1.this, "Indeciso selecionado! ", Toast.LENGTH_LONG).show();
+                indeciso ++;
+                exibirTelaLogin();
+                finish();
+            }
+        });
+
+        btnNaoSabe.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(Pergunta1.this, "Não sabe selecionado ! ", Toast.LENGTH_LONG).show();
+                naoSabe ++;
                 exibirTelaLogin();
                 finish();
             }
