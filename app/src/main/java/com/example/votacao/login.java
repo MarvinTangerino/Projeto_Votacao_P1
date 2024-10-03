@@ -34,7 +34,7 @@ public class login extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 if (etLogin.getText().toString().equals("entrevistador") && etPassword.getText().toString().equals("entrevistador")) {
-
+                    exibirPergunta1();
                 }
                 else if (etLogin.getText().toString().equals("admin") && etPassword.getText().toString().equals("admin")) {
 
@@ -52,4 +52,11 @@ public class login extends AppCompatActivity {
             return insets;
         });
     }
+
+    private void exibirPergunta1 () {
+        Intent tela = new Intent(login.this, Pergunta1.class);
+        startActivity(tela);
+        finish();
+    }
+
 }
