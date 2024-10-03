@@ -30,7 +30,6 @@ public class Pergunta1 extends AppCompatActivity {
         btnSophie = (Button) findViewById(R.id.btnSophie);
         btnPacoca = (Button) findViewById(R.id.btnPacoca);
 
-        if ()
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
