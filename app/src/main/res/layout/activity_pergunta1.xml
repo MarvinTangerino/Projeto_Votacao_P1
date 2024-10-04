@@ -9,12 +9,12 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="377dp"
-        android:layout_height="964dp"
-        android:layout_marginTop="4dp"
+        android:layout_width="420dp"
+        android:layout_height="1057dp"
+        android:layout_marginTop="16dp"
         android:scaleType="centerCrop"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.529"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/fundoeleitoral" />
@@ -39,7 +39,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="12dp"
         android:layout_marginEnd="16dp"
-        android:text="Quem deverá ganhar as eleições?"
+        android:text="Em quem você votaria?"
         android:textColor="@color/black"
         android:textSize="42sp"
         app:layout_constraintEnd_toEndOf="parent"
