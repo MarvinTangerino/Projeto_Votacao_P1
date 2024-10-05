@@ -14,12 +14,9 @@ import androidx.core.view.WindowInsetsCompat;
 
 public class Pergunta1 extends AppCompatActivity {
 
-
     Button btnNina, btnSophie, btnPacoca, btnBela, btnLuna, btnNulo, btnBranco, btnIndeciso, btnNaoSabe;
 
     int nina, sophie, pacoca, bela, luna, nulo, branco, indeciso, naoSabe;
-
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,7 +33,6 @@ public class Pergunta1 extends AppCompatActivity {
         branco = 0;
         indeciso = 0;
         naoSabe = 0;
-
 
         btnBela = (Button) findViewById(R.id.btnBela);
         btnLuna = (Button) findViewById(R.id.btnLuna);
@@ -137,7 +133,6 @@ public class Pergunta1 extends AppCompatActivity {
                 finish();
             }
         });
-
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
