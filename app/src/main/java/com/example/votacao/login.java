@@ -37,7 +37,7 @@ public class login extends AppCompatActivity {
                     exibirPergunta2();
                 }
                 else if (etLogin.getText().toString().equals("admin") && etPassword.getText().toString().equals("admin")) {
-
+                    exibirPerfilAdm();
                 }
                 else{
                     Toast.makeText(login.this, "Usuário ou senha inválidos!", Toast.LENGTH_LONG).show();
@@ -55,6 +55,12 @@ public class login extends AppCompatActivity {
 
     private void exibirPergunta2 () {
         Intent tela = new Intent(login.this, Pergunta2.class);
+        startActivity(tela);
+        finish();
+    }
+
+    private void exibirPerfilAdm () {
+        Intent tela = new Intent(login.this, PerfilAdm.class);
         startActivity(tela);
         finish();
     }

@@ -53,6 +53,7 @@
         android:layout_height="90dp"
         android:layout_marginTop="4dp"
         android:text="Nina"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.15"
         app:layout_constraintStart_toStartOf="parent"
@@ -62,10 +63,11 @@
         android:id="@+id/btnBela"
         android:layout_width="120dp"
         android:layout_height="90dp"
-        android:layout_marginTop="332dp"
+        android:layout_marginTop="292dp"
         android:text="Bela"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.858"
+        app:layout_constraintHorizontal_bias="0.852"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -73,10 +75,11 @@
         android:id="@+id/btnSophie"
         android:layout_width="120dp"
         android:layout_height="90dp"
-        android:layout_marginTop="404dp"
+        android:layout_marginTop="356dp"
         android:text="Sophie"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.15"
+        app:layout_constraintHorizontal_bias="0.151"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -84,10 +87,11 @@
         android:id="@+id/btnLuna"
         android:layout_width="120dp"
         android:layout_height="90dp"
-        android:layout_marginTop="468dp"
+        android:layout_marginTop="424dp"
         android:text="Luna"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.858"
+        app:layout_constraintHorizontal_bias="0.852"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -95,10 +99,11 @@
         android:id="@+id/btnPacoca"
         android:layout_width="120dp"
         android:layout_height="90dp"
-        android:layout_marginTop="532dp"
+        android:layout_marginTop="488dp"
         android:text="Paçoca"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.15"
+        app:layout_constraintHorizontal_bias="0.151"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -106,20 +111,20 @@
         android:id="@+id/btnNulo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="48dp"
+        android:layout_marginBottom="68dp"
         android:backgroundTint="@color/white"
         android:text="Nulo"
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.235"
+        app:layout_constraintHorizontal_bias="0.278"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/btnBranco"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="52dp"
+        android:layout_marginBottom="68dp"
         android:backgroundTint="@color/white"
         android:text="Em Branco"
         android:textColor="@color/black"
@@ -132,12 +137,13 @@
         android:id="@+id/btnIndeciso"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
         android:backgroundTint="@color/white"
         android:text="Indeciso"
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.245"
+        app:layout_constraintHorizontal_bias="0.291"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
@@ -150,6 +156,6 @@
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.761"
+        app:layout_constraintHorizontal_bias="0.735"
         app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

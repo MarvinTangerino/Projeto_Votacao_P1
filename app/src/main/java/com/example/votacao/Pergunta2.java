@@ -17,6 +17,16 @@ public class Pergunta2 extends AppCompatActivity {
     EditText etSeuVoto, etPrimeiroNome, etEstadoCivil, etIdade, etSexo, etTelefone, etData, etHora;
     Button btnCadastrar;
 
+    String voto;
+    String nome;
+    int estadoCivil;
+    int idade;
+    int sexo;
+    int telefone;
+    int data;
+    int hora;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -32,6 +42,9 @@ public class Pergunta2 extends AppCompatActivity {
         etTelefone = (EditText) findViewById(R.id.etTelefone);
         etData = (EditText) findViewById(R.id.etData);
         etHora = (EditText) findViewById(R.id.etHora);
+
+
+
 
         btnCadastrar.setOnClickListener(new View.OnClickListener() {
             @Override
