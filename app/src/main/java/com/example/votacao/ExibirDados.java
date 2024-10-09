@@ -4,6 +4,7 @@ import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.database.Cursor;
 import android.os.Bundle;
+import android.text.method.ScrollingMovementMethod;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
@@ -34,6 +35,8 @@ public class ExibirDados extends AppCompatActivity {
         btnProxVotos = findViewById(R.id.btnProxVotos);
         btnLogout = findViewById(R.id.btnLogout);
         dbHelper = new DatabaseHelper(this);
+
+        txtExibirDados.setMovementMethod(new ScrollingMovementMethod());
 
         // Exibir os dados do banco de dados no TextView
         exibirDados();
